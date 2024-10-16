@@ -417,6 +417,8 @@ img {
   .contact__container {
     justify-items: center;
   }
+  
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -427,4 +429,11 @@ img {
   .home__img {
     right: 10%;
   }
+  
+}
+@media screen and (max-width: 768px) {
+  .bd-grid-section {
+    grid-template-columns: 1fr; 
+  }
+  
 }
